@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/user_start_root"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    android:clickable="true"
+    android:background="@drawable/ready_background_xml"
+    android:gravity="center"
+    android:layout_gravity="center_vertical">
+    
+        <TextView android:id="@+id/alias"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:textSize = "28dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="alias"
+            ></TextView>
+        <EditText android:id="@+id/alias_edit"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:textSize="28dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="#333"
+            android:maxLength="16">
+            </EditText>
+        
+        <ImageView android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"></ImageView>
+    
+        
+        
+     <LinearLayout
+        android:id="@+id/colour_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="#ccc" />
+
+        <uk.co.eidolon.shared.utils.PagerContainerShrunk
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/colour_gallery"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="0dp"
+                android:unselectedAlpha="0.7" />
+        </uk.co.eidolon.shared.utils.PagerContainerShrunk>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="#ccc" />
+    </LinearLayout>
+        
+        <Button
+        android:id="@+id/ready_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:textSize="@dimen/button_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="Ready" />
+        
+        
+</LinearLayout>
+         

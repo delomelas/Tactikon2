@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/progress_area"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6b1010"
+    android:visibility="gone"
+    android:orientation="horizontal" >
+    
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:id="@+id/text_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             
+          <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:textColor="#fff"
+                 android:textSize="18dp"
+                 android:textStyle="bold"
+                 android:background="#6b1010"
+                 android:text="Players"></TextView>
+          </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/network_options"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	>
+        <TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Players"></TextView>
+    	<Spinner
+    	    android:id="@+id/players_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Friends only"></TextView>
+    	<CheckBox
+    	    android:id="@+id/friends_check"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:checked="false">
+    	</CheckBox>
+    	
+    	</LinearLayout>
+    	
+        <LinearLayout
+            android:id="@+id/local_options"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	>
+        <TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Human Players"></TextView>
+    	<Spinner
+    	    android:id="@+id/human_players_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="AI Players"></TextView>
+    	<Spinner
+    	    android:id="@+id/ai_players_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	
+    	<LinearLayout
+            android:id="@+id/ai_player_1_options"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	>
+        
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="AI Player 1"></TextView>
+    	<Spinner
+    	    android:id="@+id/ai_player_1_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	</LinearLayout>
+    	
+    	<LinearLayout
+            android:id="@+id/ai_player_2_options"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	>
+        
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="AI Player 2"></TextView>
+    	<Spinner
+    	    android:id="@+id/ai_player_2_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	</LinearLayout>
+    	
+    	<LinearLayout
+            android:id="@+id/ai_player_3_options"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	>
+        
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="AI Player 3"></TextView>
+    	<Spinner
+    	    android:id="@+id/ai_player_3_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	</LinearLayout>
+    	
+    	<LinearLayout
+            android:id="@+id/ai_player_4_options"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	>
+        
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="AI Player 4"></TextView>
+    	<Spinner
+    	    android:id="@+id/ai_player_4_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	</LinearLayout>
+    	
+    	<LinearLayout
+            android:id="@+id/ai_player_5_options"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	>
+        
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="AI Player 5"></TextView>
+    	<Spinner
+    	    android:id="@+id/ai_player_5_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	</LinearLayout>
+    	
+    	<LinearLayout
+            android:id="@+id/ai_player_6_options"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	>
+        
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="AI Player 6"></TextView>
+    	<Spinner
+    	    android:id="@+id/ai_player_6_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	</LinearLayout>
+    	
+    	<LinearLayout
+            android:id="@+id/ai_player_7_options"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	>
+        
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="AI Player 7"></TextView>
+    	<Spinner
+    	    android:id="@+id/ai_player_7_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	</LinearLayout>
+    	
+    	
+    	
+    	</LinearLayout>
+                
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:textColor="#fff"
+                 android:textSize="18dp"
+                 android:textStyle="bold"
+                 android:background="#6b1010"
+                 android:text="Map Options"></TextView>
+          </LinearLayout>
+        
+         <LinearLayout
+            android:id="@+id/map_options"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	android:layout_width="match_parent">
+         <TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Size"></TextView>
+          <Spinner
+    	    android:id="@+id/size_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+       
+        
+    	
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Sea Level"></TextView>
+    	<Spinner
+    	    android:id="@+id/sealevel_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Cities"></TextView>
+    	<Spinner
+    	    android:id="@+id/cities_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Forests"></TextView>
+    	<CheckBox
+    	    android:id="@+id/forest_check"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:checked="true">
+    	</CheckBox>
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Mountains"></TextView>
+    	<CheckBox
+    	    android:id="@+id/mountains_check"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+    	    android:checked="true">
+    	</CheckBox>
+    	
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Scale"></TextView>
+    	<Spinner
+    	    android:id="@+id/smooth_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Mirror"></TextView>
+    	<Spinner
+    	    android:id="@+id/balance_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	</LinearLayout>
+    	
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:textColor="#fff"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:background="#6b1010"
+                 android:text="Game Options"></TextView>
+          </LinearLayout>
+        
+         <LinearLayout
+            android:id="@+id/game_options"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+        	
+        	android:layout_width="match_parent">
+    	
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Fog Of War"></TextView>
+    	<Spinner
+    	    android:id="@+id/fog_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Win Condition"></TextView>
+    	<Spinner
+    	    android:id="@+id/win_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	
+    	<TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#fff"
+        	android:text="Turn Time Limit"></TextView>
+    	<Spinner
+    	    android:id="@+id/timelimit_spinner"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content">
+    	</Spinner>
+    	
+    	</LinearLayout>
+    	</LinearLayout>
+    	</ScrollView>
+    	
+	</LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="0.9"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        
+		<TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balance rating:"></TextView>
+		<TextView
+		    android:id="@+id/balance_text"
+		    android:paddingLeft="4dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="---"></TextView>
+        </LinearLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+		<uk.co.eidolon.tact2.FittedImageView
+            android:id="@+id/map_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" 
+            android:scaleType="centerCrop"
+            android:background="#000"/>
+		<ImageView 
+		    android:layout_width="48dp"
+		    android:layout_height="48dp"
+		    android:layout_alignParentTop="true"
+		    android:layout_alignParentRight="true"
+		    android:src="@drawable/refreshicon"/>
+        </RelativeLayout>
+        
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+

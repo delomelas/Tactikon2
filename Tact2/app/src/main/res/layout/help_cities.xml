@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+<LinearLayout 
+    style = "@style/HelpLayout" >
+    
+    <ImageView
+        style="@style/HelpImage"
+        android:src="@drawable/city"/>
+    <TextView style="@style/HelpText"
+        android:text="Cities are your facility for producing additional units - the more cities you have the more units you can produce. Different units take a different amount of time to produce."/>
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Capturing Cities"></TextView>
+    <ImageView
+        style="@style/HelpImage"
+        android:src="@drawable/route_capture_city"/>
+    <TextView style="@style/HelpText"
+        android:text="Grey cities on the map are unoccupied - using a Tank or Infantry unit you can capture the city and set it to work for yourself. Likewise, if an enemy city has no units stationed in it, you can capture the city from the enemy."></TextView>
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Producing Units"></TextView>
+    <ImageView
+        style="@style/HelpImage"
+        android:src="@drawable/city_production"/>
+    <TextView style="@style/HelpText"
+        android:text="To change production within one of your cities, tap the city in question. This will bring up the city dialog - then hit the [Change] button and select what you'd like to produce. Once a number of turns have passed, you'll see a +1 icon over the city - this shows that a unit has been produced."></TextView>
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Repairs"></TextView>
+    <TextView style="@style/HelpText"
+        android:text="If there are damaged units in a city, they'll be repaired before any production continues. A damaged unit in a city will regain health at the rate of one point per turn."></TextView>
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Fortified Units"></TextView>
+    <ImageView
+        style="@style/HelpImage"
+        android:src="@drawable/city_fortified"/>
+    <TextView style="@style/HelpText"
+        android:text="Up to four units can be fortified in a city - they'll defend the city from takeover by enemy forces."></TextView>
+    <TextView style="@style/HelpText"
+        android:text="To station a unit in a city, simply move it into the city. To select a unit in a city, select it from the city dialog."></TextView>
+    <TextView style="@style/HelpInfoText"
+        android:text="NOTE: You can also board and disembark from transports by dragging the fortified units. Try it out!"></TextView>
+    
+</LinearLayout>
+</ScrollView>

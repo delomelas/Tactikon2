@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="1dp"
+    android:background="#aab481">
+    
+    <LinearLayout android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="4dp"
+       android:layout_marginTop="8dp"
+       android:layout_marginLeft="8dp"
+       android:layout_marginBottom="8dp"
+       android:layout_marginRight="0dp"
+       android:background="#40000000">
+       
+        <ImageView android:id="@+id/image_unit"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+       		android:layout_height="100dp"></ImageView>
+        
+        <TextView android:id="@+id/text_turns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="TURNS:"
+            android:textSize="20dp"></TextView>
+        <TextView android:id="@+id/text_moves"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:textColor="#000"
+       		android:text="MOVES"
+            android:textSize="20dp"></TextView>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+        <LinearLayout android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:orientation="vertical"
+       		android:layout_marginTop="8dp"
+       		android:layout_marginLeft="8dp"
+       		android:layout_marginRight="8dp"
+       		android:layout_marginBottom="0dp"
+       		android:padding="4dp"
+       		android:background="#40000000">
+    		<TextView android:id="@+id/text_vs_air"
+            	android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:text="vs AIR"
+       			android:textColor="#000"
+            android:textSize="16dp"></TextView>
+    		<TextView android:id="@+id/text_vs_air_details"
+            	android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:text="ATT:  DEF:  "
+       			android:textColor="#000"
+            android:textSize="16dp"></TextView>
+    	</LinearLayout>
+    	
+        <LinearLayout android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:orientation="vertical"
+       		android:layout_marginTop="8dp"
+       		android:layout_marginLeft="8dp"
+       		android:layout_marginRight="8dp"
+       		android:layout_marginBottom="0dp"
+       		android:padding="4dp"
+       		android:background="#40000000">
+    		<TextView android:id="@+id/text_vs_land"
+            	android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:text="vs LAND"
+       			android:textColor="#000"
+            android:textSize="16dp"></TextView>
+    		<TextView android:id="@+id/text_vs_land_details"
+            	android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:text="ATT:  DEF:  "
+       			android:textColor="#000"
+            android:textSize="16dp"></TextView>
+    	</LinearLayout>
+    	
+        <LinearLayout android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+       		android:orientation="vertical"
+       		android:layout_marginTop="8dp"
+       		android:layout_marginLeft="8dp"
+       		android:layout_marginRight="8dp"
+       		android:layout_marginBottom="8dp"
+       		android:padding="4dp"
+       		android:background="#40000000">
+    		<TextView android:id="@+id/text_vs_sea"
+            	android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:text="vs SEA"
+       			android:textColor="#000"
+            android:textSize="18dp"></TextView>
+    		<TextView android:id="@+id/text_vs_sea_details"
+            	android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+       			android:text="ATT:  DEF:  "
+       			android:textColor="#000"
+            android:textSize="16dp"></TextView>
+    	</LinearLayout>
+        
+        
+        
+    </LinearLayout>
+    
+        
+    
+
+</LinearLayout>

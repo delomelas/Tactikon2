@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_chat_container"
+    android:layout_width="280dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+    
+    <uk.co.eidolon.shared.views.ChatListView
+        android:id="@+id/chat_area"
+        android:background="#333"
+        android:stackFromBottom="true"
+		android:transcriptMode="normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+    </uk.co.eidolon.shared.views.ChatListView>
+    
+    <LinearLayout android:id="@+id/target_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaa"
+        android:orientation="horizontal">
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To:"
+            android:textColor="#000">
+            </TextView>
+        <Spinner android:id="@+id/to_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+            
+        
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/message_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView android:id="@+id/error_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold|italic"
+            android:textSize="14dp"
+            android:background="#aaa"
+            android:textColor="#fff"></TextView>
+        <EditText android:id="@+id/message_entry"
+            android:inputType="textLongMessage"
+            android:imeOptions="actionSend"
+            android:background="#ddd"
+            android:textColor="#000"
+            android:maxLength="255"
+            android:padding="3dp"
+            android:textCursorDrawable="@null"
+            android:layout_width="match_parent"
+            android:minHeight="40dp"
+            android:hint="send message to other players"
+            android:layout_height="wrap_content"></EditText>
+        
+    </LinearLayout> 
+            
+            
+    
+    <LinearLayout android:id="@+id/expander_container"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <RelativeLayout android:id="@+id/expander_tab"
+        	android:clickable="true"
+        	android:layout_width="100dp"
+        	android:layout_height="40dp"
+        	android:background="@drawable/slide_tab">
+            <ImageView android:id="@+id/new_message_star"
+                android:src="@drawable/message_star"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                ></ImageView>
+        </RelativeLayout>
+        
+        
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

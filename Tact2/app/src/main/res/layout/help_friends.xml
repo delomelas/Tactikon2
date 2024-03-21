@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+<LinearLayout 
+    style = "@style/HelpLayout" >
+    
+     <TextView style="@style/HelpBoldText"
+        android:text="Friends"/>
+    
+     <TextView style="@style/HelpText"
+        android:text="You can create friends-only games if you want to play with just people you know. Add friends by long tapping on a game and selecting from the list, or by searching from the friends list."></TextView>
+     
+     <TextView style="@style/HelpBoldText"
+        android:text="Friends-only games"/>
+    
+     <TextView style="@style/HelpText"
+        android:text="If you only want to play games against people you know, select 'friends only' when creating a game. Only players you have friended will be able to join these games."></TextView>
+     
+     <TextView style="@style/HelpBoldText"
+        android:text="Game Invites"/>
+     
+     <TextView style="@style/HelpText"
+        android:text="Invite your friends to play a game - long press on a game that has yet to start and choose the 'Invite' option."></TextView>
+     
+     
+     <TextView style="@style/HelpBoldText"
+        android:text="Blocked Users"/>
+     
+     <TextView style="@style/HelpText"
+        android:text="To block offensive users from sending you future chat messages, long press on a chat message and choose 'Block User'. Blocked users will be unable to send you future chat messages, and unable to join games that you have started."></TextView>
+     
+    
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<resources>
+
+    <dimen name="button_height">28dp</dimen>
+	<dimen name="button_text">12dp</dimen>
+	<dimen name="text_size_normal">12dp</dimen>
+	<dimen name="text_size_large">18dp</dimen>
+	<dimen name="text_size_small">8dp</dimen>
+	<dimen name="large_icon">80dp</dimen>
+	<dimen name="profile_section">128dp</dimen>
+	<dimen name="medium_icon">40dp</dimen>
+	
+	
+	
+</resources>

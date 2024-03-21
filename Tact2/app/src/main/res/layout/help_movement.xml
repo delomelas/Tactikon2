@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout 
+    style = "@style/HelpLayout" >
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Movement"/>
+    <ImageView style="@style/HelpImage"
+        android:src="@drawable/movement_selection"/>
+    <TextView style="@style/HelpText"
+        android:text="Select the unit you want to move. The white highlighted squares show the squares the unit can move to. Select a destination and the route will be shown."></TextView>
+    <ImageView style="@style/HelpImage"
+        android:src="@drawable/route_selection"/>
+    <TextView style="@style/HelpText"
+        android:text="Tap again on the destination to move the unit."></TextView>
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Attacks"/>
+    <ImageView style="@style/HelpImage"
+        android:src="@drawable/attack_selection"/>
+    <TextView style="@style/HelpText"
+        android:text="Select the unit you want to attack with. The red highlighted squares show the units you can attack from the current position. Select a unit to attack to bring up the combat analysis. This screen shows the probability of the attack succeeding - see the help section titled 'Combat' for more information. If you're happy with your chances, tap the 'Attack' button."></TextView>
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Transports"/>
+    <ImageView style="@style/HelpImage"
+        android:src="@drawable/route_showing_boarding"/>
+    <TextView style="@style/HelpText"
+        android:text="Some units can transport others. To board a unit, simply move it onto the square occupied by the other unit."></TextView>
+    <TextView style="@style/HelpInfoText"
+        android:text="NOTE: Units being transported can't engage in combat."></TextView>
+    
+
+</LinearLayout>
+</ScrollView>
+

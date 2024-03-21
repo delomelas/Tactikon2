@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+
+    <dimen name="game_icon_size">120dp</dimen>
+    <dimen name="small_player_icon_size">24dp</dimen>
+    <dimen name="state_info_text_size">15dp</dimen>
+    
+    <dimen name="gamedialog_largetext">24dp</dimen>
+    <dimen name="gamedialog_extralargetext">30dp</dimen>
+    <dimen name="gamedialog_massivetext">70dp</dimen>
+    <dimen name="gamedialog_normaltext">20dp</dimen>
+    <dimen name="gamedialog_largeicon">85dp</dimen>
+    <dimen name="gamedialog_normalicon">58dp</dimen>
+
+</resources>

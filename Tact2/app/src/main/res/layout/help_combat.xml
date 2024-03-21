@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout 
+    style = "@style/HelpLayout" >
+    
+    <TextView style="@style/HelpText"
+        android:text="When an attack is ordered, a brief animation will play showing the battle progress. Each unit has different attack and defence values depending on if it's engaged against an Air, Land or Sea unit. There are three rounds to every attack:"/>
+    <TextView style="@style/HelpText"
+        android:text="1. Attacker attacks"></TextView>
+    <TextView style="@style/HelpText"
+        android:text="2. Defender counter-attacks"></TextView>
+    <TextView style="@style/HelpText"
+        android:text="3. Attacker attacks"></TextView>
+    <TextView style="@style/HelpText"
+        android:text="Each attack has the chance of doing one point of damage to the other unit."></TextView>
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Combat probabilities"></TextView>
+    <ImageView
+        style="@style/HelpImage"
+		android:src="@drawable/attack_dialog"/>
+    <TextView style="@style/HelpText"
+        android:text="The attack dialog shows the possible outcomes of the battle - including any combat modifiers which will change the base stats for this battle."></TextView>
+    <TextView style="@style/HelpText"
+        android:text="The probability of causing damage in each of the three rounds of combat of a normal battle is:"></TextView>
+    <ImageView
+        style="@style/HelpImage"
+		android:src="@drawable/formula"/>
+    <TextView style="@style/HelpText"
+        android:text="ie, if you have a dice with n sides, where n is the attack score of the attacker added to the defence score of the defender, you'll win that round of combat if you roll greater than the defence score of the enemy."></TextView>
+    
+    <TextView style="@style/HelpText"
+        android:text="The combat analysis screen summarises the combined results of all three rounds of combat."></TextView>
+    <TextView style="@style/HelpInfoText"
+        android:text="NOTE: if a unit manages three kills without dying, it'll be promoted to a 'Veteran' unit, with a bonus to its stats."></TextView>
+
+</LinearLayout>
+</ScrollView>
+

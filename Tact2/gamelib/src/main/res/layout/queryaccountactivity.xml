@@ -1,0 +1,197 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:orientation="vertical"
+    tools:context=".QueryAccountActivity" >
+    
+   <TextView android:id="@+id/initial_text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/text_size_normal"
+       android:text="Account setup"
+       />
+           <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+             	android:layout_height="wrap_content">
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/identity_text_title"
+        android:gravity="center_vertical">
+        <TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	
+        	android:text="Identity"
+        	android:textSize="@dimen/text_size_normal"
+        	android:layout_marginRight="10dp"/>
+    	<LinearLayout
+	        android:layout_width="match_parent"
+        	android:layout_height="2dp"
+        	android:background="#555" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <EditText android:id="@+id/identity_text"
+            android:clickable="true"
+            android:maxWidth="250dp"
+            android:maxLines="1"
+            android:singleLine="true"
+			android:editable="false"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:textSize="@dimen/text_size_normal"
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Not set"/>
+    	    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+    	<Button
+	        android:id="@+id/google_sign_in"
+        	android:layout_width="wrap_content"
+        	android:layout_height="@dimen/button_height"
+        	android:textSize="@dimen/button_text"
+        	android:text="Select Google Account"/>
+    	</LinearLayout>
+    
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/options_area"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical">
+        <TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Alias"
+        	android:textSize="@dimen/text_size_normal"
+        	android:layout_marginRight="10dp"/>
+    	<LinearLayout
+	        android:layout_width="match_parent"
+        	android:layout_height="2dp"
+        	android:background="#555" />
+    </LinearLayout>
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:singleLine="true"
+        android:hint="Choose an alias"
+        android:textSize="@dimen/text_size_normal"
+		android:inputType="textNoSuggestions"
+		android:maxLength="14"
+        android:id="@+id/edit_alias"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical">
+        <TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Colour"
+        	android:textSize="@dimen/text_size_normal"
+        	android:layout_marginRight="10dp"/>
+    	<LinearLayout
+	        android:layout_width="match_parent"
+        	android:layout_height="2dp"
+        	android:background="#555" />
+    </LinearLayout>
+    
+    <LinearLayout
+            android:layout_width="@dimen/large_icon"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+        	android:background="#ccc" />
+    <uk.co.eidolon.shared.utils.PagerContainerShrunk
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+    	<android.support.v4.view.ViewPager
+			android:id="@+id/colour_gallery"
+        	android:layout_width="@dimen/large_icon"
+        	android:layout_height="@dimen/large_icon"
+        	android:padding="0dp"
+        	android:layout_gravity="center_horizontal"
+        	android:unselectedAlpha="0.7"/>
+    </uk.co.eidolon.shared.utils.PagerContainerShrunk>
+    <LinearLayout
+            android:layout_width="@dimen/large_icon"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+        	android:background="#ccc" />
+    
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical">
+        <TextView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Logo"
+        	android:textSize="@dimen/text_size_normal"
+        	android:layout_marginRight="10dp"/>
+    	<LinearLayout
+	        android:layout_width="match_parent"
+        	android:layout_height="2dp"
+        	android:background="#555" />
+    </LinearLayout>
+    
+    
+	<LinearLayout
+            android:layout_width="@dimen/large_icon"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+        	android:background="#ccc" />
+	<uk.co.eidolon.shared.utils.PagerContainerShrunk
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+    	<android.support.v4.view.ViewPager
+			android:id="@+id/logo_gallery"
+        	android:layout_width="@dimen/large_icon"
+        	android:layout_height="@dimen/large_icon"
+        	android:padding="0dp"
+        	android:layout_gravity="center_horizontal"
+        	android:unselectedAlpha="0.7"/>
+    </uk.co.eidolon.shared.utils.PagerContainerShrunk>
+    <LinearLayout
+            android:layout_width="@dimen/large_icon"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+        	android:background="#ccc" />
+
+  </LinearLayout>
+  </LinearLayout>
+  </ScrollView>
+
+</LinearLayout>

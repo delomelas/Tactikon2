@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".GameListFragment" >
+    
+    <LinearLayout android:id="@+id/searchfriend"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#333"
+        android:padding="2dp"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content">
+        <EditText android:id="@+id/search_text"
+            android:layout_width="match_parent"
+            android:maxLines = "1"
+            android:inputType="text"
+            android:scrollHorizontally="true"
+            android:gravity="left"
+            android:textColor="#fff"
+            android:imeOptions="actionSearch"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/search_button"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:textSize="@dimen/button_text"
+            android:layout_alignParentRight="true"
+            android:text="Search"/>
+        
+	</LinearLayout>
+	<LinearLayout android:id="@+id/searchresult"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#333"
+        android:padding="2dp"
+        android:layout_margin="2dp"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/searchresult_logo"
+            android:layout_width="@dimen/medium_icon"
+            android:layout_height="@dimen/medium_icon"/>
+        <ProgressBar
+            android:id="@+id/search_spinner"
+            android:layout_width="@dimen/medium_icon"
+            android:layout_height="@dimen/medium_icon" />
+        <TextView android:id="@+id/searchresult_name"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="5px"
+            android:textSize="@dimen/text_size_normal"
+            android:text="UserNameHere"/>
+        <Button android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="@dimen/button_height"
+            android:textSize="@dimen/button_text"
+            android:text="Cancel"/>
+        <Button android:id="@+id/add_button"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="@dimen/button_height"
+            android:textSize="@dimen/button_text"
+            android:text="Add"/>
+        
+	</LinearLayout>
+            
+        
+
+
+    <uk.co.eidolon.shared.views.FriendListView
+        android:id="@+id/friendslist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </uk.co.eidolon.shared.views.FriendListView>
+
+</LinearLayout>

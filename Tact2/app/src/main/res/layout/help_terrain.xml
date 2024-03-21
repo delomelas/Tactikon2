@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout 
+    style = "@style/HelpLayout" >
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Grassland"/>
+    <ImageView style="@style/HelpImage"
+        android:src="@drawable/land"/>
+    <TextView style="@style/HelpText"
+        android:text="Land units can move freely on grassland."/>
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Water"/>
+    <ImageView style="@style/HelpImage"
+        android:src="@drawable/water"/>
+    <TextView style="@style/HelpText"
+        android:text="Boats can move freely on water."/>
+    <TextView style="@style/HelpInfoText"
+        android:text="NOTE: Transport boats can only unload troops onto grassland or forrest, not mountains."/>
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Forest"/>
+    <ImageView style="@style/HelpImage"
+        android:src="@drawable/forest"/>
+    <TextView style="@style/HelpText"
+        android:text="Land units can move half as far as normal in dense forest. However, infantry in forest gets an attack and defence bonus."/>
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Mountain"/>
+    <ImageView style="@style/HelpImage"
+        android:src="@drawable/mountain"/>
+    <TextView style="@style/HelpText"
+        android:text="Tanks can't pass mountains. Transports can't unload troops on to mountains."/>
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Cities"/>
+    <ImageView style="@style/HelpImage"
+        android:src="@drawable/city"/>
+    <TextView style="@style/HelpText"
+        android:text="Infantry and Tanks get an attack bonus when in cities, whereas all aircraft and ships get a penalty - they can't do much while grounded or docked."/>
+    
+    
+
+    
+
+</LinearLayout>
+</ScrollView>
+

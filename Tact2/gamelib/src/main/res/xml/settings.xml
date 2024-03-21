@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+      <RingtonePreference
+	    android:key="notificationSound"
+	    android:ringtoneType="notification"
+	    android:summary="Select notification sound"
+	    android:defaultValue="none"
+	    android:title="Notification Sound">
+	  </RingtonePreference>
+	  
+      <CheckBoxPreference
+          android:key="blinkenlights"
+          android:summary="Show notification light"
+          android:defaultValue="false"
+          android:title="Notification Lights">
+      </CheckBoxPreference>
+      
+      <CheckBoxPreference
+          android:key="friendsOnlyInvites"
+          android:summary="Receive game invites from friends only"
+          android:defaultValue="false"
+          android:title="Game Invites">
+      </CheckBoxPreference>
+      
+      <CheckBoxPreference
+          android:key="detailedStats"
+          android:summary="Show detailed combat statistics"
+          android:defaultValue="false"
+          android:title="Detailed combat">
+      </CheckBoxPreference>
+      
+      <CheckBoxPreference
+          android:key="confirmEndTurn"
+          android:summary="Confirm ending your turn"
+          android:defaultValue="true"
+          android:title="Confirm end turn">
+      </CheckBoxPreference>
+      
+      <CheckBoxPreference
+          android:key="aiAutoFollow"
+          android:summary="Auto zoom to AI movement"
+          android:defaultValue="true"
+          android:title="Track AI">
+      </CheckBoxPreference>
+      
+      <CheckBoxPreference
+          android:key="simpleGraphics"
+          android:summary="No animated clouds or water"
+          android:defaultValue="false"
+          android:title="Simplified graphics">
+      </CheckBoxPreference>
+
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout 
+    style = "@style/HelpLayout" >
+    
+    <TextView style="@style/HelpText"
+        android:text="Swipe down the chat window in-game to chat to the other players."/>
+    
+    <TextView style="@style/HelpText"
+        android:text="You'll need to identify yourself before being able to chat - you'll see the standard Google Play popup explaining what is required the first time."/>
+    
+    <TextView style="@style/HelpText"
+        android:text="Chat messages are not stored permanently on the server - so if you reinstall Tactikon or clear data, you'll lose your chat history."/>
+    
+    
+    
+    
+
+</LinearLayout>
+</ScrollView>
+

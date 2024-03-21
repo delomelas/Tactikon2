@@ -1,0 +1,218 @@
+<GraphicsSet name="base">
+
+    <Misc name="small_explosion"
+        texture="basegraphics/small_explosion.png"
+        frames="12"
+        frameRate="33"/>
+    
+    <Misc name="smoke"
+        texture="basegraphics/smoke.png"
+        frames="14"
+        frameRate="33"/>
+    
+    <Misc name="large_explosion"
+        texture="basegraphics/large_explosion.png"
+        frames="23"
+        frameRate="33"/>
+    
+    <Misc name="selected"
+	  texture="basegraphics/select_reticule.png"/>
+    <Misc name="veteran"
+	  texture="basegraphics/veteran.png"/>
+    <Misc name="square"
+	  texture="basegraphics/square.png"/>
+    <Misc name="circle"
+	  texture="basegraphics/circle.png"/>
+    <Misc name="circle_border"
+	  texture="basegraphics/circle_border.png"/>
+    <Misc name="square_border"
+	  texture="basegraphics/square_border.png"/>
+    <Misc name="healthpip1"
+	  texture="basegraphics/healthpip1.png"/>
+    <Misc name="healthpip2"
+	  texture="basegraphics/healthpip2.png"/>
+    <Misc name="killspip1"
+	  texture="basegraphics/killspip1.png"/>
+    <Misc name="killspip2"
+	  texture="basegraphics/killspip2.png"/>
+    
+    <Misc name="killspip3"
+	  texture="basegraphics/killspip3.png"/>
+
+    <Misc name="healthpip3"
+	  texture="basegraphics/healthpip3.png"/>
+    <Misc name="crosshair"
+	  texture="basegraphics/crosshair.png"/>
+    
+    <Misc name="straight"
+	  texture="basegraphics/straight.png"/>
+    
+    <Misc name="cog"
+	  texture="basegraphics/cog.png"/>
+    
+    <Misc name="spanner"
+	  texture="basegraphics/spanner.png"/>
+
+    <Misc name="left"
+	  texture="basegraphics/left.png"/>
+    <Misc name="right"
+	  texture="basegraphics/right.png"/>
+    <Misc name="final"
+	  texture="basegraphics/final.png"/>
+    
+    <Misc name="grass1"
+	  texture="basegraphics/grass1.png"/>
+    <Misc name="grass2"
+	  texture="basegraphics/grass2.png"/>
+    <Misc name="water1"
+	  texture="basegraphics/water1.png"/>
+    <Misc name="water2"
+	  texture="basegraphics/water2.png"/>
+    <Misc name="mountains"
+	  texture="basegraphics/mountains.png"/>
+    <Misc name="jungle"
+	  texture="basegraphics/jungle.png"/>
+
+    <Misc name="air_track_forward"
+	  texture="basegraphics/air_track_forward.png"/>
+    <Misc name="air_track_left"
+	  texture="basegraphics/air_track_left.png"/>
+    <Misc name="air_track_right"
+	  texture="basegraphics/air_track_right.png"/>
+    <Misc name="air_track_end"
+	  texture="basegraphics/air_track_end.png"/>
+
+    <Misc name="boot_track_forward"
+	  texture="basegraphics/boot_track_forward.png"/>
+    <Misc name="boot_track_left"
+	  texture="basegraphics/boot_track_left.png"/>
+    <Misc name="boot_track_right"
+	  texture="basegraphics/boot_track_right.png"/>
+    <Misc name="boot_track_end"
+	  texture="basegraphics/boot_track_end.png"/>
+    
+
+    <Misc name="tank_track_forward"
+	  texture="basegraphics/tank_track_forward.png"/>
+    <Misc name="tank_track_left"
+	  texture="basegraphics/tank_track_left.png"/>
+    <Misc name="tank_track_right"
+	  texture="basegraphics/tank_track_right.png"/>
+    <Misc name="tank_track_end"
+	  texture="basegraphics/tank_track_end.png"/>
+    
+    <Misc name="boat_track_forward"
+	  texture="basegraphics/boat_track_forward.png"/>
+    <Misc name="boat_track_left"
+	  texture="basegraphics/boat_track_left.png"/>
+    <Misc name="boat_track_right"
+	  texture="basegraphics/boat_track_right.png"/>
+    <Misc name="boat_track_end"
+	  texture="basegraphics/boat_track_end.png"/>
+    
+    
+    
+    <Misc name="jungle_horizontal"
+	  texture="basegraphics/jungle_horizontal.png"/>
+    <Misc name="jungle_vertical"
+	  texture="basegraphics/jungle_vertical.png"/>
+    <Misc name="jungle_corners"
+	  texture="basegraphics/jungle_corners.png"/>
+    
+    <Misc name="mountains_vertical"
+	  texture="basegraphics/mountains_vertical.png"/>
+    <Misc name="mountains_horizontal"
+	  texture="basegraphics/mountains_horizontal.png"/>
+    <Misc name="mountains_corners"
+	  texture="basegraphics/mountains_corners.png"/>
+    <Misc name="coast_horizontal"
+	  texture="basegraphics/coast_horizontal.png"/>
+    <Misc name="coast_vertical"
+	  texture="basegraphics/coast_vertical.png"/>
+    <Misc name="coast_corners"
+	  texture="basegraphics/coast_corners.png"/>
+    
+    <Misc name="health_pip"
+	  texture="basegraphics/health_pip.png"/>
+    <Misc name="health_pip_large"
+	  texture="basegraphics/health_pip_large.png"/>
+    <Misc name="cross_health_pip"
+	  texture="basegraphics/cross_health_pip.png"/>
+    
+    <Misc name="silver_star"
+	  texture="basegraphics/silver_star.png"/>
+    
+    <Misc name="clouds"
+	  texture="basegraphics/clouds.png"
+	  filtered="true"/>
+    
+    <Unit name="City"
+        colourTexture="basegraphics/city_colour.png"
+        baseTexture="basegraphics/city_base.png"/>
+    
+    <Unit name="CityAbandoned"
+        colourTexture="basegraphics/city_abandoned.png"
+        baseTexture="basegraphics/city_abandoned.png"/>
+    
+    <Unit name="CityLights"
+        colourTexture="basegraphics/city_colour_lights.png"
+        baseTexture="basegraphics/city_base_lights.png"/>
+    
+    <Unit name="UnitTank" frames="3"
+		frameRate="350"
+        colourTexture="basegraphics/tank_colour.png"
+        baseTexture="basegraphics/tank_base.png"/>    
+        
+    <Unit name="UnitInfantry" frames = "2"
+		frameRate="500"
+        colourTexture="basegraphics/infantry_colour.png"
+        baseTexture="basegraphics/infantry_base.png"/>
+    
+    <Unit name="UnitBattleship" frames = "2"
+		frameRate="700"
+        colourTexture="basegraphics/battleship_colour.png"
+		shadowTexture="basegraphics/battleship_shadow.png"
+        baseTexture="basegraphics/battleship_base.png"/>
+    
+    <Unit name="UnitCarrier" frames="2"
+		frameRate="700"
+        colourTexture="basegraphics/carrier_colour.png"
+		shadowTexture="basegraphics/carrier_shadow.png"
+        baseTexture="basegraphics/carrier_base.png"/>
+    
+    <Unit name="UnitSub" config="0" frames = "2"
+		frameRate="500"
+        colourTexture="basegraphics/sub_colour.png"
+        shadowTexture="basegraphics/sub_shadow.png"
+        baseTexture="basegraphics/sub_base.png"/>
+    
+    <Unit name="UnitSub" config="1" frames = "2"
+		frameRate="500"
+        colourTexture="basegraphics/sub_submerged_colour.png"
+		shadowTexture="basegraphics/sub_submerged_shadow.png"
+        baseTexture="basegraphics/sub_submerged_base.png"/>
+    
+    <Unit name="UnitBoatTransport" frames="2"
+		frameRate="400"
+        colourTexture="basegraphics/transport_colour.png"
+        shadowTexture="basegraphics/transport_shadow.png"
+        baseTexture="basegraphics/transport_base.png"/>
+    
+    <Unit name="UnitBomber" frames="2"
+		frameRate="200"
+        colourTexture="basegraphics/bomber_colour.png"
+		shadowTexture="basegraphics/bomber_shadow.png"
+        baseTexture="basegraphics/bomber_base.png"/>
+    
+    <Unit name="UnitFighter" frames="2"
+		frameRate="210"
+        colourTexture="basegraphics/fighter_colour.png"
+        shadowTexture="basegraphics/fighter_shadow.png"
+        baseTexture="basegraphics/fighter_base.png"/>
+    
+    <Unit name="UnitHelicopter" frames="2"
+		frameRate="400"
+        colourTexture="basegraphics/chopper_colour.png"
+        baseTexture="basegraphics/chopper_base.png"/>
+
+</GraphicsSet>

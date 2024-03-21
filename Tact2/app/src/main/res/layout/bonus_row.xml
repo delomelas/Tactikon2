@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+<TableRow 
+    	android:layout_height="wrap_content"
+    	android:background="#20000000"
+    	android:gravity="center"
+        android:layout_width="match_parent">
+        <TextView
+        	android:id="@+id/att_bonus"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.5"
+        	android:textSize="@dimen/gamedialog_normaltext"
+        	android:textColor="#000"
+        	android:gravity="center"
+        	android:layout_width="0px"
+        	android:text=""/>
+        <TextView
+        	android:layout_height="wrap_content"
+        	android:layout_width="0px"
+        	android:layout_weight="0.25"
+        	android:text="  "/>
+        <TextView
+        	android:id="@+id/def_bonus"
+        	android:layout_width="0px"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.5"
+        	android:textSize="@dimen/gamedialog_normaltext"
+        	android:textColor="#000"
+        	android:gravity="center"
+        	android:text=""/>
+        
+    </TableRow>
+    
+    <TableRow
+        android:layout_height="wrap_content"
+    	android:background="#20000000"
+    	android:gravity="center"
+    	android:layout_width="match_parent">
+        <TextView
+        	android:id="@+id/att_att_stat"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:textSize="@dimen/gamedialog_normaltext"
+        	android:textColor="#000"
+        	android:gravity="center"
+        	android:text=""/>
+        <TextView
+        	android:id="@+id/att_def_stat"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:textSize="@dimen/gamedialog_normaltext"
+        	android:textColor="#000"
+        	android:gravity="center"
+        	android:text=""/>
+        <TextView
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text=""/>
+        <TextView
+        	android:id="@+id/def_att_stat"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:textSize="@dimen/gamedialog_normaltext"
+        	android:textColor="#000"
+        	android:gravity="center"
+        	android:text=""/>
+        <TextView
+        	android:id="@+id/def_def_stat"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:textSize="@dimen/gamedialog_normaltext"
+        	android:textColor="#000"
+        	android:gravity="center"
+        	android:text=""/>
+        
+    </TableRow>
+</LinearLayout>

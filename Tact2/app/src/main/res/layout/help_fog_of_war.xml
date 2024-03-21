@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout 
+    style = "@style/HelpLayout" >
+    
+    <TextView style="@style/HelpText"
+        android:text="Some battles take place in unexplored territory where you'll only be able to see nearby enemies."/>
+
+    <ImageView
+        style="@style/HelpImage"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fog_of_war" />
+
+    <TextView style="@style/HelpText"
+        android:text="Explore by moving your units out to reveal more of the map."/>
+    <TextView style="@style/HelpInfoText"
+        android:text="NOTE: watch out for sneak attacks and keep your cities well defended."/>
+
+</LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string translatable="false" name="app_name">Tactikon2</string>
+    <string translatable="false" name="action_settings">Settings</string>
+    <string translatable="false" name="title_activity_main">Tactikon2</string>
+    <string translatable="false" name="hello_world">Hello world!</string>
+    <string translatable="false" name="title_activity_account_query">Choose account</string>
+    <string translatable="false" name="title_activity_new_game">New Game</string>
+    <string translatable="false" name="title_upgrade_activity">Upgrade</string>
+    <string translatable="false" name="action_new_game">New Game</string>
+    <string translatable="false" name="about">About</string>
+    <string translatable="false" name="title_about_activity">About</string>
+    <string translatable="false" name="pro_upgrade">Remove Adverts</string>
+    <string translatable="false" name="action_end_turn">End Turn</string>
+    <string translatable="false" name="title_activity_search_games">Search Games</string>
+    <string translatable="false" name="action_search_games">Join Game</string>
+    <string translatable="false" name="title_activity_search_results">SearchResultsActivity</string>
+    <string translatable="false" name="title_activity_join_game">JoinGameActivity</string>
+    <string translatable="false" name="title_activity_game">GameActivity</string>
+    <string translatable="false" name="dismiss"><![CDATA[<]]></string>
+    <string-array name="do_not_show_again_array">
+    	<item>Don\'t show this again.</item>
+	</string-array>
+</resources>
+

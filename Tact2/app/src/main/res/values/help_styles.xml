@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<style name="HelpText" parent="@android:style/TextAppearance.Medium">
+  <item name="android:layout_width">wrap_content</item>
+  <item name="android:layout_height">wrap_content</item>
+  <item name="android:textColor">#fff</item>
+  <item name="android:paddingBottom">5px</item>
+  <item name="android:paddingLeft">5px</item>
+  <item name="android:paddingRight">5px</item>
+</style>
+
+<style name="HelpBoldText" parent="@android:style/TextAppearance.Medium">
+  <item name="android:layout_width">wrap_content</item>
+  <item name="android:layout_height">wrap_content</item>
+  <item name="android:textColor">#fff</item>
+  <item name="android:textStyle">bold</item>
+  <item name="android:paddingLeft">5px</item>
+  <item name="android:paddingRight">5px</item>
+  <item name="android:paddingBottom">5px</item>
+  <item name="android:paddingTop">10px</item>
+</style>
+
+<style name ="HelpLayout" parent="Theme.Tactikon">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:padding">5px</item>
+    <item name="android:orientation">vertical</item>
+</style>
+
+<style name="HelpInfoText" parent = "@android:style/TextAppearance.Medium">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#fff</item>
+    <item name="android:textStyle">italic</item>
+    <item name="android:background">#444</item>
+    <item name="android:paddingLeft">5px</item>
+    <item name="android:maxWidth">400dp</item>
+  <item name="android:paddingRight">5px</item>
+    <item name="android:paddingBottom">5px</item>
+</style>
+
+<style name ="HelpImage">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:padding">5px</item>
+</style>
+
+
+</resources>

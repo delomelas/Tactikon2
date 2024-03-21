@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/tactikon_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="an Eidolon Industries production"
+        ></TextView>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="developed by"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="James Payne"
+        ></TextView>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="art by"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="James Payne"
+        ></TextView>
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unit sprites by"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brandon Duhon - brandon@nightdrivemusic.com"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="other sources"
+        android:paddingTop="10dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nasa Visible Earth - http://visibleearth.nasa.gov/"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Textures - http://cgtextures.com"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Icons - http://game-icons.net"
+        ></TextView>
+
+         <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+
+        android:orientation="horizontal">
+
+
+         </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center|bottom"
+                android:background="#333"
+                        android:orientation="vertical">
+        <TextView
+
+			android:maxWidth="150dp"
+			android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Like Tactikon? Show your love on Google Play"/>
+        <Button
+            	android:id="@+id/review_button"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+
+                 android:text="Review"/>
+        </LinearLayout>
+
+	<LinearLayout
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+
+       <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center|bottom"
+        android:background="#333"
+        android:orientation="vertical">
+             <TextView
+                 android:gravity="center"
+                android:maxWidth="150dp"
+           	 	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="Having problems? Let us know by email"/>
+             <Button
+                 android:id="@+id/feedback_button"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+
+                 android:text="Feedback"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</ScrollView>

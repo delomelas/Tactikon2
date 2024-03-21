@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout 
+    style = "@style/HelpLayout" >
+    
+    <TextView style="@style/HelpText"
+        android:text="Tactikon is a game of combat - opposing armies build forces to conquer the map. Take turns choosing what to build and where, directing the movements and attacks of your forces."/>
+    <TextView style="@style/HelpText"
+        android:text="Start by selecting 'Join Game' - choose a game to take part in, then wait until you're notified that it's your turn."></TextView>
+
+</LinearLayout>
+</ScrollView>
+

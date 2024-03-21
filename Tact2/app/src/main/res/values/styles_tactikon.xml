@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Tactikon" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_tactikon</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Tactikon</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Tactikon</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Tactikon</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Tactikon</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Tactikon</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_tactikon</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_tactikon</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Tactikon</item>
+        <item name="android:itemTextAppearance">@style/Tactikon.MenuTextStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/Tactikon.OverFlow</item>
+        
+        <item name="android:editTextBackground">@drawable/tactikontheme_edit_text_holo_dark</item>
+	    <item name="android:textColorHighlight">#998c1515</item>
+	    <item name="android:textSelectHandleLeft">@drawable/tactikontheme_text_select_handle_left</item>
+	    <item name="android:textSelectHandleRight">@drawable/tactikontheme_text_select_handle_right</item>
+	    <item name="android:textSelectHandle">@drawable/tactikontheme_text_select_handle_middle</item>
+	    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewTactikonTheme</item>
+	    <item name="android:listChoiceIndicatorMultiple">@drawable/tactikontheme_btn_check_holo_dark</item>
+	    <item name="android:listChoiceIndicatorSingle">@drawable/tactikontheme_btn_radio_holo_dark</item>
+	    <item name="android:buttonStyle">@style/ButtonTactikonTheme</item>
+	    <item name="android:imageButtonStyle">@style/ImageButtonTactikonTheme</item>
+	    <item name="android:dropDownSpinnerStyle">@style/SpinnerTactikonTheme</item>
+	    <item name="android:progressBarStyleHorizontal">@style/ProgressBarTactikonTheme</item>
+	    <item name="android:buttonStyleToggle">@style/ToggleTactikonTheme</item>
+	    <item name="android:listChoiceBackgroundIndicator">@drawable/tactikontheme_list_selector_holo_dark</item>
+	    <item name="android:activatedBackgroundIndicator">@drawable/tactikontheme_activated_background_holo_dark</item>
+	    <item name="android:fastScrollThumbDrawable">@drawable/tactikontheme_fastscroll_thumb_holo</item>
+	    
+	    <item name="android:windowBackground">@color/activity_background</item>
+    	<item name="android:actionMenuTextColor">@color/white</item>
+    	<item name="android:textColor">#ffffffff</item>
+    	<item name="android:textColorSecondary">#ffcccccc</item>
+    </style>
+    
+    <style name="NoTitleText">
+    	<item name="android:textSize">0sp</item>
+    	<item name="android:textColor">#00000000</item>
+	</style>
+    
+    <style name="SpinnerTextViewItem" parent="@android:style/Widget.TextView" >
+    	<item name="android:textSize" >16dp</item>
+    	<item name="android:textStyle" >bold</item>
+    	
+	</style>
+
+    <style name="ActionBar.Solid.Tactikon" parent="@android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_tactikon</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_tactikon</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_tactikon</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Tactikon</item>
+        <item name="android:indeterminateProgressStyle">@style/Tactikon.IndeterminateProgress</item>
+        <item name="android:titleTextStyle">@style/NoTitleText</item>
+    	<item name="android:subtitleTextStyle">@style/NoTitleText</item>     
+    </style>
+    
+    <style name="Tactikon.IndeterminateProgress" parent="@android:style/Widget.ProgressBar">
+    	<item name="android:indeterminateDrawable">@drawable/anim_spinner</item>
+	</style>
+        
+    
+    <style name="Tactikon.OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+    	<item name="android:src">@drawable/ic_action_core_overflow</item>
+	</style>
+    
+	<style name="Tactikon.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+	    <item name="android:textColor">#fff</item>
+	    <item name="android:textStyle">bold</item>
+	    
+	</style>
+	 
+	<style name="Tactikon.MenuTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+	    <item name="android:textColor">#fff</item>
+	</style>
+
+    <style name="ActionBar.Transparent.Tactikon" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_tactikon</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Tactikon</item>
+    </style>
+
+    <style name="PopupMenu.Tactikon" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_tactikon</item>	
+    </style>
+
+    <style name="DropDownListView.Tactikon" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_tactikon</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Tactikon" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_tactikon</item>
+    </style>
+
+    <style name="DropDownNav.Tactikon" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_tactikon</item>
+        <item name="android:textColor">#fff</item>
+	    <item name="android:textStyle">bold</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_tactikon</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_tactikon</item>
+    </style>
+    
+    <style name="ProgressBar.Tactikon" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_tactikon</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Tactikon" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_tactikon</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Tactikon.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Tactikon</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Tactikon</item>
+    </style>
+    
+
+
+</resources>

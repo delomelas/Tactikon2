@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".JoinGameActivity" >
+    
+    <LinearLayout
+        android:id="@+id/progress_area"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:visibility="gone"
+    	android:orientation="horizontal" >
+    
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:id="@+id/text_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/game_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/colour_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your colour is already in use, please choose another:" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="#ccc" />
+
+        <uk.co.eidolon.shared.utils.PagerContainerShrunk
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/colour_gallery"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="0dp"
+                android:unselectedAlpha="0.7" />
+        </uk.co.eidolon.shared.utils.PagerContainerShrunk>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="#ccc" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/join_game_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:textSize="@dimen/button_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="Join Game" />
+
+</LinearLayout>

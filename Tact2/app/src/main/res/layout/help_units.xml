@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/uk.co.eidolon.tact2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+<LinearLayout 
+    style = "@style/HelpLayout" >
+    
+    <TextView style="@style/HelpBoldText"
+        android:text="Infantry"></TextView>
+    
+    <uk.co.eidolon.tact2.UnitDetailsView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:unitType="UnitInfantry">
+    </uk.co.eidolon.tact2.UnitDetailsView>
+    
+     <TextView style="@style/HelpText"
+        android:text="Infantry are quick to produce, but can't move far and are one of the weakest units in the game. They'll perform slightly better when stationed on mountains, cities or forest. They can also capture uninhabited cities."></TextView>
+    
+     <TextView style="@style/HelpBoldText"
+        android:text="Tank"></TextView>
+    <uk.co.eidolon.tact2.UnitDetailsView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:unitType="UnitTank">
+    </uk.co.eidolon.tact2.UnitDetailsView>
+     <TextView style="@style/HelpText"
+        android:text="Tanks are a step up from infantry in terms of fire-power, but can't move over mountains. They can capture uninhabited cities. Mountains are inpassable, and movement in forests is restricted."></TextView>
+    
+     <TextView style="@style/HelpBoldText"
+        android:text="Transport"></TextView>
+    <uk.co.eidolon.tact2.UnitDetailsView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:unitType="UnitBoatTransport"/>
+    
+     <TextView style="@style/HelpText"
+        android:text="The weakest unit in the game, but essential for transporting your ground troops over sea. Each Transport can carry two units, Tanks or Infantry."></TextView>
+    
+      <TextView style="@style/HelpBoldText"
+        android:text="Submarine"></TextView>
+    <uk.co.eidolon.tact2.UnitDetailsView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:unitType="UnitSub"
+        app:config="0"/>
+    <uk.co.eidolon.tact2.UnitDetailsView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:unitType="UnitSub"
+        app:config="1"/>
+   
+     <TextView style="@style/HelpText"
+        android:text="When surfaced, the Sub is a decent enough unit with the stats as above. When submerged (long-press on the unit to bring up the context menu), it'll only be visible by nearby enemy units and has additional attack power against sea units. A submerged sub can't enter a port though, and has no attack ability against land and air units."></TextView>
+    
+     <TextView style="@style/HelpBoldText"
+        android:text="Destroyer"></TextView>
+    <uk.co.eidolon.tact2.UnitDetailsView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:unitType="UnitBattleship"
+        app:config="0"/>
+     <TextView style="@style/HelpText"
+        android:text="A giant floating fortress, the Destroyer will devastate land units from up to two squares away."></TextView>
+    
+     <TextView style="@style/HelpBoldText"
+        android:text="Bomber"></TextView>
+    <uk.co.eidolon.tact2.UnitDetailsView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:unitType="UnitBomber"
+        app:config="0"/>
+     <TextView style="@style/HelpText"
+        android:text="The Bomber will inflict heavy damage on ground and sea units, but is prone to attack by other air units. They carry limited fuel, so be sure to land in a city or on a Carrier before it runs out - you can see the remaining fuel from the yellow highlighted area on the map."></TextView>
+    
+     <TextView style="@style/HelpBoldText"
+        android:text="Fighter"></TextView>
+    <uk.co.eidolon.tact2.UnitDetailsView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:unitType="UnitFighter"
+        app:config="0"/>
+     <TextView style="@style/HelpText"
+        android:text="Fighter planes are fast and great for taking down other air units. They carry limited fuel, so be sure to land in a city or on a Carrier before it runs out - you can see the remaining fuel from the yellow highlighted area on the map."></TextView>
+     
+     <TextView style="@style/HelpBoldText"
+        android:text="Carrier"></TextView>
+    <uk.co.eidolon.tact2.UnitDetailsView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:unitType="UnitCarrier"
+        app:config="0"/>
+     <TextView style="@style/HelpText"
+        android:text="The Carrier serves as a mobile base for your aircraft, allowing up to two of them to safely land and refuel."></TextView>
+    
+     <TextView style="@style/HelpBoldText"
+        android:text="Chopper"></TextView>
+    <uk.co.eidolon.tact2.UnitDetailsView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:unitType="UnitHelicopter"
+        app:config="0"/>
+     <TextView style="@style/HelpText"
+        android:text="The Chopper carries up to two Infantry units allowing you to quickly get them behind enemy lines. Limited fuel, although unlike Bombers and Fighters, they can safely land on Grassland without using fuel."></TextView>
+  
+
+</LinearLayout>
+</ScrollView>

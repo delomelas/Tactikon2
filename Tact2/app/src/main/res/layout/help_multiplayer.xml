@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+<LinearLayout 
+    style = "@style/HelpLayout" >
+    <ImageView
+        style="@style/HelpImage"
+		android:src="@drawable/multiplayer_games"
+        ></ImageView>
+     <TextView style="@style/HelpText"
+        android:text="The main screen shows all the games you're currently playing. If it's your turn, the game will be highlighted."></TextView>
+    
+     <TextView style="@style/HelpText"
+        android:text="There is a time-limit to take your turn - this varies from 12 hours to 48 hours, depending on the selection when the game was created. If you don't take your turn before time runs out, you'll miss your chance and your turn will automatically be skipped. If you miss three turns in a row, you'll be withdrawn from the game."></TextView>
+     
+     <TextView style="@style/HelpText"
+        android:text="Long-tap on a multiplayer game for more options:"></TextView>
+     <TextView style="@style/HelpText"
+        android:text="* You can surrender if you think you're in an unwinnable situation."></TextView>
+     <TextView style="@style/HelpText"
+        android:text="* You can add a player from that game to your friends list."></TextView>
+    
+
+</LinearLayout>
+</ScrollView>

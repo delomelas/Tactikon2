@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context=".SearchResultsActivity" >
+    
+    <LinearLayout
+        android:id="@+id/progress_area"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:id="@+id/text_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <Button
+        android:id="@+id/new_game"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="New Game"
+        android:layout_gravity="center"
+        />
+    
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/resultslist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dp"
+        android:layout_alignParentTop="true" >
+    </ListView>
+
+</RelativeLayout>

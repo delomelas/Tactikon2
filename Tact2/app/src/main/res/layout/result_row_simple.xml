@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:background="#20000000"
+    android:layout_width="match_parent">
+    	
+        <TextView
+	        android:id="@+id/attacker_damage"
+        	android:layout_weight="1"
+        	android:textStyle="bold"
+        	android:textSize="@dimen/gamedialog_normaltext"
+        	android:textColor="#000"
+        	android:gravity="center"
+        	android:text="ATK"/>
+        <TextView
+	        android:id="@+id/probability_text"
+        	android:layout_weight="1"
+        	android:textStyle="bold"
+        	android:textSize="@dimen/gamedialog_normaltext"
+        	android:textColor="#000"
+        	android:gravity="center"
+        	android:text="   "/>
+        <TextView
+	        android:id="@+id/defender_damage"
+        	android:layout_weight="1"
+        	android:textStyle="bold"
+        	android:textSize="@dimen/gamedialog_normaltext"
+        	android:textColor="#000"
+        	android:gravity="center"
+        	android:text="DEF"/>
+</TableRow>

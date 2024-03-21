@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_new_local_game"
+        android:title="@string/action_new_local_game"
+        android:showAsAction="never"></item>
+
+
+    <item
+        android:id="@+id/action_search_games"
+        android:title="@string/action_search_games"
+        android:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:showAsAction="never"
+        android:title="@string/action_refresh"/>
+
+
+</menu>

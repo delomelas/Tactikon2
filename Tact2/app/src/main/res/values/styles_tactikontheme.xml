@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewTactikonTheme" parent="android:Widget.Holo.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/tactikontheme_list_selector_holo_dark</item>
+	    <item name="android:background">@drawable/tactikontheme_edit_text_holo_dark</item>
+  </style>
+
+  <style name="ButtonTactikonTheme" parent="android:Widget.Holo.Button">
+	  <item name="android:background">@drawable/tactikontheme_btn_default_holo_dark</item>
+	  <item name="android:textColor">#ffffff</item>
+  </style>
+
+  <style name="ImageButtonTactikonTheme" parent="android:Widget.Holo.ImageButton">
+	  <item name="android:background">@drawable/tactikontheme_btn_default_holo_dark</item>
+  </style>
+
+  <style name="SpinnerTactikonTheme" parent="android:Widget.Holo.Spinner">
+      <item name="android:background">@drawable/tactikontheme_spinner_background_holo_dark</item>
+      <item name="android:textColor">#fff</item>
+      <item name="android:dropDownSelector">@drawable/tactikontheme_list_selector_holo_dark</item>
+  </style>
+
+  <style name="TabTactikonTheme">
+      <item name="android:gravity">center_horizontal</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/tactikontheme_tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+
+  <style name="TabTextTactikonTheme">
+	  <item name="android:textColor">#ffffff</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <!-- v14 <item name="android:textAllCaps">true</item> -->
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+
+  <style name="ProgressBarTactikonTheme" parent="android:Widget.Holo.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/tactikontheme_progress_horizontal_holo_dark</item>
+      <item name="android:indeterminateDrawable">@drawable/tactikontheme_progress_indeterminate_horizontal_holo_dark</item>
+  </style>
+
+  <style name="ToggleTactikonTheme" parent="android:Widget.Holo.Button.Toggle">
+      <item name="android:background">@drawable/tactikontheme_btn_toggle_holo_dark</item>
+  </style>
+
+</resources>

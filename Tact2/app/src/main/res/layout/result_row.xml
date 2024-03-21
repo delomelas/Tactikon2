@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:background="#20000000"
+    android:layout_width="match_parent">
+    	
+        <ImageView
+        	android:id="@+id/attacker_loss_image"
+        	android:layout_weight="1"
+        	android:layout_gravity="center"/>
+        <TextView
+	        android:id="@+id/probability_text"
+        	android:layout_weight="1"
+        	android:textStyle="bold"
+        	android:textSize="@dimen/gamedialog_normaltext"
+        	android:textColor="#000"
+        	android:gravity="center"
+        	android:text="ATK"/>
+        <ImageView
+        	android:id="@+id/defender_loss_image"
+        	android:layout_weight="1"
+        	android:layout_gravity="center"/>
+</TableRow>

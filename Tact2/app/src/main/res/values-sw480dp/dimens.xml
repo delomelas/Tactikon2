@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+
+    <dimen name="game_icon_size">140dp</dimen>
+    <dimen name="small_player_icon_size">30dp</dimen>
+	<dimen name="state_info_text_size">16dp</dimen>
+</resources>
