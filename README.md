@@ -27,8 +27,9 @@ Definitions compatible with the StateEngine; defines the units and behaviours fo
 
 # What needs doing...
 I mean, it probably needs a re-write from the ground up. But as a minimum to get it up and running again...
-1. Build against up-to-date Android SDK
-2. Rip out any billing and ads stuff
-3. Replace anything that's particularly bad - AI, profiles, chat are all pretty terribke.
-4. Replace the artisan OpenGL routines with an engine of some sort, SDL? Unity?
+1. Run an auto-linter over the entire code to fix my non-idiomatic Java style which will probably hurt your head
+2. Build against up-to-date Android SDK
+3. Rip out any billing and ads stuff
+4. Replace anything that's particularly bad - AI, profiles, chat are all pretty terribke.
+5. Replace the artisan OpenGL routines with an engine of some sort, SDL? Unity?
    
