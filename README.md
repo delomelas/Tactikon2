@@ -4,11 +4,13 @@
 
 Here's most of the source code for Tactikon 2.
 
+
+
 It's a mess - written mostly in a couple of months about 10 years ago. I learned Java and Android APIs as I went, and actively avoided importing dependencies preferring to write shoddy versions of everything I needed myself.
 But it more or less worked.
 Until it reached a point where it was unmaintainable and the burdon of keeping it up to date with the latest Android led to me giving up.
 
-So here it is. If anyone wants to try to get it building again, feel free. I'd love to keep it in this repo - I'll be happy to add you as a contributor if you want to try to bring it back to life.
+** So here it is. If anyone wants to try to get it building again, feel free. I'd love to keep it in this repo - I'll be happy to add you as a contributor if you want to try to bring it back to life. **
 
 ## GameServer
 The back-end. Needs a refactor to use a real DB, or at least improve the locking on the sqlite database. Needs to clean up and remove old games, the DB was getting a bit bogged down after 5 years and about 10Gb of data.
