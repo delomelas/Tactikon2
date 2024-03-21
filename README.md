@@ -10,22 +10,22 @@ Until it reached a point where it was unmaintainable and the burdon of keeping i
 
 So here it is. If anyone wants to try to get it building again, feel free. I'd love to keep it in this repo - I'll be happy to add you as a contributor if you want to try to bring it back to life.
 
-# GameServer
+## GameServer
 The back-end. Needs a refactor to use a real DB, or at least improve the locking on the sqlite database. Needs to clean up and remove old games, the DB was getting a bit bogged down after 5 years and about 10Gb of data.
 
-# Tact2/gamelib
+## Tact2/gamelib
 This was supposed to be everything sharable between similar multiplayer games - generic Android layouts for profile / game listings / that soft of thing / network handling.
 
-# Tact2/stateengine
+## Tact2/stateengine
 The core of the turn-based engine. Handles passing around state objects and applying "Events" to the current state to do an action of some sort.
 
-# Tact2/app
+## Tact2/app
 Everything Tactikon-specific, Android, OpenGL rendering, input
 
-#Tact2/TactikonState
+## Tact2/TactikonState
 Definitions compatible with the StateEngine; defines the units and behaviours for the game
 
-## What needs doing...
+# What needs doing...
 I mean, it probably needs a re-write from the ground up. But as a minimum to get it up and running again...
 1. Build against up-to-date Android SDK
 2. Rip out any billing and ads stuff
