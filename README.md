@@ -14,7 +14,7 @@ So here it is. If anyone wants to try to get it building again, feel free. I'd l
 The back-end. Needs a refactor to use a real DB, or at least improve the locking on the sqlite database. Needs to clean up and remove old games, the DB was getting a bit bogged down after 5 years and about 10Gb of data.
 
 ## Tact2/gamelib
-This was supposed to be everything sharable between similar multiplayer games - generic Android layouts for profile / game listings / that soft of thing / network handling.
+This was supposed to be everything sharable between similar multiplayer games - generic Android layouts for profile / game listings / network handling.
 
 ## Tact2/stateengine
 The core of the turn-based engine. Handles passing around state objects and applying "Events" to the current state to do an action of some sort.
